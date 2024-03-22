@@ -42,8 +42,8 @@ class ViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.white.cgColor
-        button.layer.cornerRadius = button.frame.size.width/2
-        button.layer.masksToBounds = true
+        button.addTarget(self, action: #selector(incrementCounter), for: .touchUpInside)
+        
         return button
     }()
     
@@ -55,8 +55,8 @@ class ViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.white.cgColor
-        button.layer.cornerRadius = button.frame.size.width/2
-        button.layer.masksToBounds = true
+        button.addTarget(self, action: #selector(decrementCounter), for: .touchUpInside)
+        
         return button
     }()
     
@@ -81,6 +81,16 @@ class ViewController: UIViewController {
             increaseButton.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -24),
             increaseButton.widthAnchor.constraint(equalTo: decreaseButton.widthAnchor)
         ])
+    }
+    
+    @objc private func incrementCounter() {
+        self.counter += 1
+        self.counterLabel.text = "\(self.counter)"
+    }
+    
+    @objc private func decrementCounter() {
+        self.counter -= 1
+        self.counterLabel.text = "\(self.counter)"
     }
 }
 
