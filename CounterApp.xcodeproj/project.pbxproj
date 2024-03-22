@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		587BC5002BAE0BD100C97815 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 587BC4FF2BAE0BD100C97815 /* README.md */; };
 		58E710332BAC997F00F4533F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E710322BAC997F00F4533F /* AppDelegate.swift */; };
 		58E710352BAC997F00F4533F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E710342BAC997F00F4533F /* SceneDelegate.swift */; };
 		58E710372BAC997F00F4533F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E710362BAC997F00F4533F /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		587BC4FF2BAE0BD100C97815 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		58E7102F2BAC997F00F4533F /* CounterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E710322BAC997F00F4533F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E710342BAC997F00F4533F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				58E710362BAC997F00F4533F /* ViewController.swift */,
 				58E7103B2BAC998100F4533F /* Assets.xcassets */,
 				58E710402BAC998100F4533F /* Info.plist */,
+				587BC4FF2BAE0BD100C97815 /* README.md */,
 			);
 			path = CounterApp;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587BC5002BAE0BD100C97815 /* README.md in Resources */,
 				58E7103C2BAC998100F4533F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
