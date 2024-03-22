@@ -6,6 +6,9 @@ This is very simple app, which is counter app.
 - Create simple app programmatically using swift + UIKit
 - How UI change if particular event happened
 
+### Demo Video 
+![CounterApp](./counter-app-ios.gif)
+
 This is a very simple project that useful if you're learning at the first place.
 
 Thanks!
