@@ -82,7 +82,9 @@ class ViewController: UIViewController {
             increaseButton.widthAnchor.constraint(equalTo: decreaseButton.widthAnchor)
         ])
     }
-    
+}
+
+private extension ViewController {
     @objc private func incrementCounter() {
         self.counter += 1
         self.counterLabel.text = "\(self.counter)"
@@ -93,4 +95,3 @@ class ViewController: UIViewController {
         self.counterLabel.text = "\(self.counter)"
     }
 }
-
